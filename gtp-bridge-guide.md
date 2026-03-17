@@ -107,6 +107,19 @@ Bridge는 **운송·조정 계층**이지, 새로운 권위 중심이 아니다.
 | 깊은 분석/방법론 | OpenCode/Sisyphus | GPT-5.4 xhigh, 10 에이전트 | CC가 위임 → OC 자율 연구 |
 | Git/코드/통합/최종 | Claude Code | SSOT, 실행, 버전관리 | CC 직접 수행 (불변) |
 
+### Notion AI (Mnemo_Fantasy / 원로원) 위치
+
+Notion AI는 Bridge 직접 참여 대상이 **아니다** (로컬 파일시스템 인프라에 접근 불가).
+
+| 항목 | 내용 |
+|------|------|
+| 통신 채널 | **Inbox DB 단독** — CC↔Notion 공식 경로 (Charter B2) |
+| Bridge 연결 방식 | Bridge 산출물·결과가 Inbox를 경유하여 Notion에 유입 |
+| 직접 참여 불가 사유 | `.bridge/` 디렉토리는 로컬 WSL 파일시스템, 웹 도구 접근 불가 |
+| 읽기 접근 | GitHub Pages URL로 GnotPolis 4문서 직접 참조 가능 |
+
+> **요약**: Bridge 생태계에서 원로원(Notion AI)은 산출물 수신자이지 Bridge 운용 참여자가 아니다. CC가 Bridge 결과를 종합한 후 Inbox를 통해 원로원에 전달한다.
+
 ## 2.3 크로스-플랫폼 접근 경로
 
 | 방향 | 경로 | 사용 도구 |

@@ -259,6 +259,14 @@ curl -s -H "Content-Type: application/json" \
 
 > Phase 1~5 완료 후 착수. 상세 설계는 별도 문서.
 
+> ⚠️ **거버넌스 합의 선행 필요** (원로원 F3 피드백 반영, 2026-03-17):
+> Phase 7 구현 전 Playbook PB2에 다음 3항목을 먼저 등재해야 한다:
+> 1. **자동 사이클 허용 범위** — 어떤 MessageType/Domain까지 자동화 허용할 것인가
+> 2. **Mnemo 개입 필수 기준** — 구조 변경·원칙 관련 사항 포함 시 자동화 중단 조건
+> 3. **종료 판단 권한** — CC 단독 판단 가능 범위 vs Mnemo 확인 필수 범위
+>
+> 사유: 자동 사이클이 원로원의 심의 역할을 우회하면 Charter A4 운영 원칙 1(생산적 긴장)이 약화될 위험. Notion AI 현 아키텍처의 자동 트리거 제약도 사전 설계에 반영 필요.
+
 **개념**:
 ```
 /cycle-mne "⑬ Domain Guides 생성" --max-rounds=3
