@@ -311,3 +311,4 @@ Bridge         CC ↔ OC/고문관  위임·수거
 > **이 문서의 해석·적용 사례·운용 상세 → [gtp-playbook.md](./gtp-playbook.md)**
 > **GTP 인프라 매뉴얼**: [gtp-bridge-guide.md](./gtp-bridge-guide.md), [gtp-discord-hub.md](./gtp-discord-hub.md)
 > **GnoTech 집행부 매뉴얼**: gnot-parallel-ops, gnot-opencode, gnot-datarag
+<!-- sync-test -->
