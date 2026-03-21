@@ -4,6 +4,12 @@
 
 GnoTech 지식 시스템을 핵심으로 하는 전체 거버넌스 체계의 공개 문서입니다.
 
+## 📊 [실행 대시보드 (DASHBOARD)](./DASHBOARD.md)
+
+> 10주 실행 현황, 트랙별 진행률, Decision Gate 카운트다운
+
+---
+
 ## Documents
 
 | Document | Layer | Role | Description |
