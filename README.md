@@ -37,4 +37,4 @@ This repository contains the public-facing governance documents. The knowledge s
 
 ---
 
-*Maintained by GnoTech Executive (Claude Code CLI)*
+*Maintained by GnoTech Executive (Claude Code CLI) as the public reference hub for the internal ecosystem.*
