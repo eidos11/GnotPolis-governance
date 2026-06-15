@@ -1,6 +1,6 @@
 # GnotPolis 실행 대시보드
 
-> 최종 갱신: 2026-06-08 (W13) | **무게중심: mira 재실증 + track D 집필 + 공개 준비** | Decision Gate **6/28 (일)** · 자금한계 **8월 말** · 1주 = KST 월~일
+> 최종 갱신: 2026-06-15 (W14) | **무게중심: mira 공개 완결→품질 개선·THEORY + DBREFORM core + track D 집필** | Decision Gate **6/28 (일)** · 자금한계 **8월 말** · 1주 = KST 월~일
 
 ### 참여 방법
 
@@ -52,8 +52,8 @@ W1    W2    W3    W4    W5    W6    W7    W8    W9    W10   W11   W12  [W13]  W1
 | W10 | 5/18~5/24 | mira Wave 1 구현 + P31 운영개편 착수 + corpus spec 4종 완성 | ✅ |
 | W11 | 5/25~5/31 | mira E1-impl 완료(6/2) + 코칭게이트 결함 발견 + Opus 4.8 시험 시작 | ✅ |
 | W12 | 6/01~6/07 | P31 운영개편 Phase 3 완주(T6, 272→0) + mira 모델결정·지침보수 + 거버넌스 위생 | ✅ |
-| **W13** | **6/08~6/14** | **주간회의 G1(조합 B 확정)·G2(번호체계)·G4(git 정상화) + 거시전략(mira·track D 同根) + 재실증** | 🔄 |
-| W14~W15 | 6/15~6/21 | mira 재실증 완료 + E1 공개 + track D 집필 + pub-prep | ⚪ |
+| **W13** | **6/08~6/14** | **주간회의 G1(조합 B 확정)·G2(번호체계)·G4(git 정상화) + 거시전략(mira·track D 同根) + 재실증** | ✅ |
+| **W14** | 6/15~6/21 | **주간회의: DBREFORM P1 옵션 A→ADR-027 / mira 개선안 머지·THEORY 생태계 재검토 / Fable5 대응(4.8 1차·W15 입장 게이트) / COMM 전역흡수**. mira PUBLIC=6/11 완결 | 🔄 |
 | **W16** | **6/22~6/28** | **🚩 Decision Gate (6/28 일) — 시나리오 판정** | ⚪ |
 | W17~ | 6/29~ | 판정 결과에 따른 실행 (취업 전념 OR 펀딩/서비스 전념) | ⚪ |
 
@@ -69,7 +69,7 @@ W1    W2    W3    W4    W5    W6    W7    W8    W9    W10   W11   W12  [W13]  W1
 |------|:----:|------|
 | Howstudy Adult 한글본 (HS 1.0) | ✅ | 1차 제작 완료 |
 | Howstudy 영문 보강판 | ✅ | 한글판보다 내용 보강 추가, 새 무게중심 |
-| **mira (AdultEdge Agent)** | 🔄 | ~~W7 Logic Engine v1.0 마무리~~ → WSL 이관(W3)·Wave 1 구현·**E1-impl 완료(6/2)**·코칭게이트 결함 발견 → **전체 Tier 1 재실증 진행중** (Mnemo 별도 터미널). 위치: `~/workspace/active/mira_adultedge/` |
+| **mira (AdultEdge Agent)** | ✅🔄 | ~~재실증 진행중~~ → **★PUBLIC 공개 완결(6/11, v0.2.3·Pages·Zenodo DOI `10.5281/zenodo.20646075`·CC BY-NC/CC+)**. 공개 직후 진단(무료 티어 특이도≈0·한국어死) → **개선안 1~3 머지(W14 품질 복구)** + THEORY 생태계 재검토. 공개: `github.com/eidos11/mira-adultedge` / dev: `~/workspace/active/mira_adultedge/` |
 | **track D (새 이론)** | 🔄 | '가설적 판단의 인지이론'(가제) 6장 골격 확정. mira·track D 同根 입증(4.7). 투고 목표 6/30. pub-prep 문서 3종 작성(W13) |
 | Proof-pack (전/후 비교 샘플) | ⚪ | mira 재실증 완료 + E1 공개 후 재정의 |
 | 와디즈 판매·홍보 | ⚪ | mira 공개 후 재추진 |
@@ -115,8 +115,8 @@ W1    W2    W3    W4    W5    W6    W7    W8    W9    W10   W11   W12  [W13]  W1
 | 평가 항목 | 목표 | 현재 | 상태 |
 |----------|:----:|:----:|:----:|
 | v1.0 구축 → mira E1-impl | 완료 | **E1-impl 완료**(6/2) | ✅ |
-| 코칭게이트 품질 검증 | 통과 | 근본결함 발견 → **Tier 1 재실증 진행** | 🔄 |
-| 공개(E1) + 마케팅 연동 | 공개 | 재실증 선행 결정 (S2 권고, Mnemo 승인) | ⚪ |
+| 코칭게이트/품질 검증 | 통과 | 공개 직후 진단(특이도≈0) → **개선안 1~3 머지(검증완료)** | ✅🔄 |
+| 공개(E1) + 마케팅 연동 | 공개 | **★PUBLIC 공개 완결(6/11, Zenodo DOI)** + 품질 개선 머지(W14) | ✅ |
 | Cross-project 적용 (EIU·VS·LSAi) | 가능성 평가 | mira·track D 同根 입증(W13) — 기반 확보 | 🔄 |
 
 **판정 기준 (2축 종합)** — 판정일: **6/28 (일)**:
@@ -210,6 +210,7 @@ W1    W2    W3    W4    W5    W6    W7    W8    W9    W10   W11   W12  [W13]  W1
 | 4/27 | CC+Mnemo | 전체 일정·타임라인 | Decision Gate + 자금한계 **5/17 (W9 일)**로 확정 (두 기한 일치). 타임라인 진행바·주간표·섹션 헤더 전면 업데이트. **1주 = KST 월~일** 기준 CLAUDE.md 전역 반영 | ✅ |
 | 4/27 | CC+Mnemo | 트랙 A·B·Decision Gate·W7 | **무게중심 전환**: Howstudy 영문 보강판 + **AdultEdge Logic Engine v1.0** (의사결정·타당성 검증 에이전트, W7 마무리 목표) → 와디즈/마케팅/cross-project (EIU·VS regenesis·1인 컨설팅·LSAi) 연계 base. Decision Gate **2축 판정 기준** (외부 증거 + Logic Engine 품질·연동) 도입. W7 detail table 신설 | ✅ |
 | 6/08 | CC | 전체 (W10~W13 4주 갱신) | **W13 종합 갱신**: W10~W12 완료 기록 + W13 주간회의(G1 조합 B·G2 번호체계·G4 git 정상화) 반영. 트랙 A 갱신: mira E1-impl 완료→재실증 + track D 신설. DG 헤더 6/28 정합. 축 2 현황 갱신(E1-impl ✅·재실증 🔄·同根 🔄). 거버넌스: operation.md v1.2·opus-4-8.md·governance.md v1.1·ADR-025/026. CC inbox 20→0 정리 | ✅ |
+| 6/15 | CC | 전체 (W14 주간회의) | **W14 종합**: 안건 5건 결정. ① Fable5 사태(6/12 미 수출통제→전세계 중단) 대응 = 4.8 1차 체제·Fable 부수 대비·**W15 입장 명확화 게이트**(가설적 결론). ② **DBREFORM P1 게이트=옵션 A**(보완 core 비준→ADR-027 / 고도화 tier Fable-era 보류, 의사결정 축=모델 결합도). ③ **mira PUBLIC 공개 완결(6/11)** + 개선안 머지·THEORY 생태계 재검토. ④ P31 변환 재개·B1(판본)·A-3. ⑤ COMM 전역흡수. 의사록·ADR-027=S3. | ✅ |
 ---
 
 *상세 전략: [비상회의 총정리](./situation_room/em01-crisis-response/final.md)*
